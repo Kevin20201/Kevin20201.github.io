@@ -1,0 +1,18 @@
+/* About Section Styles */
+#about {
+    /* margin: 20px; */
+    padding: 110px 0 0 30px;
+    text-align: center;
+}
+
+#about h1 {
+    margin-right: 50vw;
+}
+
+#about p {
+    text-align: left;
+    width: 50vw;
+    margin-bottom: 10px;
+    font-size: 18px;
+    /* word-wrap: break-word; */
+}

@@ -1,0 +1,30 @@
+/* Education Section Styles */
+#education {
+    /* margin: 20px; */
+    padding: 0px 0 0 30px;
+    text-align: center;
+}
+
+#education h1 {
+    margin-right: 50vw;
+}
+
+#education p {
+    text-align: left;
+    width: 40vw;
+    margin-bottom: 10px;
+    font-size: 18px;
+    /* word-wrap: break-word; */
+}
+
+#education p a {
+    color: #407fe6;
+    text-decoration: none;
+    /* border-bottom: solid 3px rgb(59, 99, 185); */
+}
+
+#education img {
+    width: 100px;
+    height: 90px;
+    margin-bottom: 10px;
+}
