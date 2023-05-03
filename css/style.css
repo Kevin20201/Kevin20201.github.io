@@ -32,6 +32,26 @@ a:hover {
   /* height: calc(100vh - 250px); */
 }
 
+/* Media query for Surface Pro 7 */
+@media (max-width: 1368px) {
+
+  /* Main content and sidebar container styles */
+  .container {
+    padding: 0 0px;
+    /* height: calc(100vh - 250px); */
+  }
+}
+
+/* Media query for iPad Air */
+@media (max-width: 1180px) {
+
+  /* Main content and sidebar container styles */
+  .container {
+    padding: 0 0px;
+    /* height: calc(100vh - 250px); */
+  }
+}
+
 /* Media query for small screens */
 @media (max-width: 768px) {
   .container {

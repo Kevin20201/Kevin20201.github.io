@@ -66,18 +66,10 @@
     transform-origin:  0% 50%; 
 }
 
-/* .social-icon {
-    display: flex;
-    align-items: center;
-    margin: 10px 0;
-}
+/* Media query for iPad Air */
+@media (max-width: 1180px) {
 
-.social-icon img {
-    width: 24px;
-    margin-right: 10px;
+    #sidebar {
+        padding: 0;
+    }
 }
-
-.social-icon a {
-    color: #333;
-    text-decoration: none;
-} */

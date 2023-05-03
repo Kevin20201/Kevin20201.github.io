@@ -1,17 +1,19 @@
 /* Footer styles */
 footer {
-    background-color: #222;
-    color: #fff;
-    font-size: 14px;
-    padding: 10px;
-    text-align: center;
-  }
-  
-  footer a {
-    color: #fff;
-  }
-  
-  footer a:hover {
-    color: #ccc;
-  }
-  
+  background-color: #222;
+  color: #fff;
+  font-size: 14px;
+  padding: 10px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+footer a {
+  color: #fff;
+}
+
+footer a:hover {
+  color: #ccc;
+}
