@@ -27,6 +27,7 @@ function toggleDarkMode() {
 
 // Load the preferred mode from localStorage
 const isDarkMode = localStorage.getItem('isDarkMode') === 'true';
-if (isDarkMode) {
-    document.body.classList.add('dark-mode');
-}
+
+// if (isDarkMode) {
+//     document.body.classList.add('dark-mode');
+// }
