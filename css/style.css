@@ -32,37 +32,25 @@ a:hover {
   /* height: calc(100vh - 250px); */
 }
 
-/* Media query for Surface Pro 7 */
-@media (max-width: 1368px) {
-
-  /* Main content and sidebar container styles */
+/* Media query for 1400px */
+@media (max-width: 1400px) {
   .container {
-    padding: 0 0px;
-    /* height: calc(100vh - 250px); */
+    max-width: 85vw;
+    /* padding: 0 0px; */
   }
 }
 
-/* Media query for iPad Air */
-@media (max-width: 1180px) {
-
-  /* Main content and sidebar container styles */
+/* Media query for 1210px */
+@media (max-width: 1210px) {
   .container {
-    padding: 0 0px;
-    /* height: calc(100vh - 250px); */
+    max-width: 90vw;
+    /* padding: 0 0px; */
   }
 }
 
-/* Media query for small screens */
-@media (max-width: 768px) {
+/* Media query for 1060px*/
+@media (max-width: 1060px) {
   .container {
-    flex-direction: column;
-  }
-  
-  #sidebar {
-    margin-top: 20px;
-  }
-  
-  section {
-    margin-right: 0;
+    max-width: 95vw;
   }
 }

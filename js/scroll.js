@@ -1,3 +1,4 @@
+// Smooth Scrolling
 function scrollToSection(event, sectionId) {
     event.preventDefault(); // prevent the default scroll behavior
 

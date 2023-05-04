@@ -65,11 +65,3 @@
 #sidebar li a.fromLeft:after{  
     transform-origin:  0% 50%; 
 }
-
-/* Media query for iPad Air */
-@media (max-width: 1180px) {
-
-    #sidebar {
-        padding: 0;
-    }
-}
