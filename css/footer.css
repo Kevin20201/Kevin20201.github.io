@@ -1,7 +1,8 @@
 /* Footer styles */
 footer {
-  background-color: #222;
-  color: #fff;
+  background-color: var(--background-footer-color);
+  transition: background-color 1s ease, color 1s ease;
+  color: var(--footer-color);
   font-size: 12px;
   padding: 10px;
   text-align: center;
@@ -12,9 +13,9 @@ footer {
 }
 
 footer a {
-  color: #fff;
+  color: var(--footer-color);
 }
 
 footer a:hover {
-  color: #ccc;
+  color: var(--footer-color-hover);
 }

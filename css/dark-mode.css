@@ -1,0 +1,22 @@
+#dark-mode-toggle {
+    /* background-color: transparent; */
+    background-color: var(--footer-color);
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    z-index: 9999; 
+}
+
+#dark-mode-toggle:focus {
+    outline: none;
+    transition: all 1s ease;
+
+}
+
+#dark-mode-toggle i {
+    transition: all 1s ease;
+}
+
+.dark-mode #dark-mode-toggle i {
+    transform: rotate(360deg);
+}

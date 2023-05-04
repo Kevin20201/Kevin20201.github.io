@@ -6,6 +6,7 @@
   <link rel="icon" type="image/png" href="youricon.png">
 	<link rel="stylesheet" href="/css/about.css">
 	<link rel="stylesheet" href="/css/contact.css">
+	<link rel="stylesheet" href="/css/dark-mode.css">
 	<link rel="stylesheet" href="/css/education.css">
 	<link rel="stylesheet" href="/css/footer.css">
 	<link rel="stylesheet" href="/css/main.css">
@@ -20,12 +21,13 @@
     <nav>
       <div class="container">
         <a href="#about" onclick="scrollToSection(event, 'about')" class="logo">Shaoyu "Kevin" Tu</a>
-      <ul>
-        <li><a href="/files/CV.pdf" target="_blank">CV</a></li>
-        <li><a href="#about" onclick="scrollToSection(event, 'about')">About Me</a></li>
-        <li><a href="#education" onclick="scrollToSection(event, 'education')">Education</a></li>
-        <li><a href="#publication" onclick="scrollToSection(event, 'publication')">Publications</a></li>
-        <li><a href="#contact" onclick="scrollToSection(event, 'contact')">Contact</a></li>
+        <ul>
+          <button class='mode-button' id='dark-mode-toggle' onclick="toggleDarkMode()"><i class="fas fa-moon"></i></button>
+          <li><a href="/files/CV.pdf" target="_blank">CV</a></li>
+          <li><a href="#about" onclick="scrollToSection(event, 'about')">About Me</a></li>
+          <li><a href="#education" onclick="scrollToSection(event, 'education')">Education</a></li>
+          <li><a href="#publication" onclick="scrollToSection(event, 'publication')">Publications</a></li>
+          <!-- <li><a href="#contact" onclick="scrollToSection(event, 'contact')">Contact</a></li> -->
       </ul>
       </div>
     </nav>
@@ -118,5 +120,6 @@
     <!-- <script src="/js/main.js"></script> -->
     <!-- <script src="/js/script.js"></script> -->
     <script src="/js/scroll.js"></script>
+    <script src="/js/light_dark.js"></script>
 </body>
 </html>

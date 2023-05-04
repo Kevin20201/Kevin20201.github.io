@@ -1,3 +1,25 @@
+:root {
+  --text-color: #000;
+  --link-color: #333;
+  --footer-color: #fff;
+  --background-nav-color: #fff;
+  --background-body-color: #f2f2f2;
+  --background-footer-color: #222;
+  --link-color-hover: #000;
+  --footer-color-hover:#ccc;
+}
+
+.dark-mode {
+  --text-color: #fff;
+  --link-color: #ccc;
+  --footer-color: #000;
+  --background-nav-color: #000;
+  --background-body-color: #222;
+  --background-footer-color: #ccc;
+  --link-color-hover: #fff;
+  --footer-color-hover:#27558f;
+}
+
 /* Reset Styles */
 * {
   margin: 0;
@@ -9,20 +31,26 @@ body {
   font-family: 'Segoe UI', sans-serif;
   /* font-size: 16px; */
   line-height: 1.8;
-  background-color: #f2f2f2;
+  /* background-color: #f2f2f2; */
   /* height: calc(100vh - 250px); */
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  color: var(--text-color);
+  background-color: var(--background-body-color);
+  transition: background-color 1s ease, color 1s ease;
 }
 
 a {
-  color: #333;
+  color: var(--link-color);
+  transition: background-color 1s ease, color 1s ease;
   text-decoration: none;
 }
 
 a:hover {
-  color: #000;
+  color: var(--link-color-hover);
+  transition: background-color 1s ease, color 1s ease;
+
 }
 
 /* Main content and sidebar container styles */
