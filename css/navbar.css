@@ -46,7 +46,7 @@ nav ul li {
 nav ul li:after {
   display:block;
   content: '';
-  border-bottom: solid 3px var(--text-color);
+  border-bottom: solid 3px var(--link-color);
   transform: scaleX(0);
   transition: transform 250ms ease-in-out;
 }
