@@ -11,13 +11,15 @@ function toggleDarkMode() {
     
     // Switch the icon before changing the mode
     if (body.classList.contains("dark-mode")) {
-        icon.style.color = "#333";
         icon.classList.remove("fa-sun");
         icon.classList.add("fa-moon");
+        icon.style.backgroundColor = "transparent";
+        icon.style.color = "#333";
     } else {
-        icon.style.color = "#ccc";
         icon.classList.remove("fa-moon");
         icon.classList.add("fa-sun");
+        icon.style.backgroundColor = "transparent";
+        icon.style.color = "#ccc";
     }
     
     body.classList.toggle("dark-mode");
