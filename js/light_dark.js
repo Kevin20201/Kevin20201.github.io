@@ -13,11 +13,11 @@ function toggleDarkMode() {
     if (body.classList.contains("dark-mode")) {
         icon.classList.remove("fal", "fa-sun");
       icon.classList.add("fa-moon");
-      icon.style.color = "#000";
+      icon.style.color = "#333";
     } else {
         icon.classList.remove("fa-moon");
         icon.classList.add("fa-sun");
-        icon.style.color = "#fafafa";
+        icon.style.color = "#ccc";
     }
     
     body.classList.toggle("dark-mode");

@@ -1,6 +1,6 @@
 #dark-mode-toggle {
-    /* background-color: transparent; */
-    background-color: var(--footer-color);
+    background-color: transparent;
+    /* background-color: var(--background-nav-color); */
     border: none;
     cursor: pointer;
     font-size: 24px;
